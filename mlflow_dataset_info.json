@@ -1,0 +1,10 @@
+{
+    "dataset": "UFC_full_data_silver_v2.csv",
+    "total_rows": 8769,
+    "train_rows": 6138,
+    "validation_rows": 1315,
+    "test_rows": 1316,
+    "feature_count": 25,
+    "target_class_0": 4455,
+    "target_class_1": 4314
+}

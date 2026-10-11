@@ -1,4 +1,38 @@
-.venv/
+# Python
 __pycache__/
-*.pyc
-.ipynb_checkpoints/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+.idea/
+
+# MLflow local files
+mlflow.db
+mlruns/
+artifacts/
+
+# Generated model files
+*.joblib
+*.pkl
+*.pickle
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
